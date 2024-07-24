@@ -13,29 +13,29 @@ class BigConatiner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(10),
+      padding: const EdgeInsets.all(10),
       width: double.infinity,
       height: 150,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: Color(0xffFFE500),
+        color: const Color(0xffFFE500),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
             title,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 22,
               fontWeight: FontWeight.w700,
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           Text(
             description,
-            style: TextStyle(
+            style: const TextStyle(
               fontWeight: FontWeight.w400,
             ),
           ),

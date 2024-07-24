@@ -21,10 +21,10 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
-              Text(
+              const Text(
                 "User Interfaces with Flutter",
                 style: TextStyle(
                   fontSize: 20,
@@ -32,23 +32,23 @@ class HomePage extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Container(
-                padding: EdgeInsets.all(20),
+                padding: const EdgeInsets.all(20),
                 width: double.infinity,
                 height: 350,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Color(0xff06FFA5),
+                  color: const Color(0xff06FFA5),
                 ),
-                child: Text(
+                child: const Text(
                   "In Flutter, the user interface is represented as a tree of widgets, commonly known as the widget tree.Each widget in the tree corresponds to a specific UI component, and the arrangement of these widgets defines the layout and appearance of the app.By understanding the widget tree, you can efficiently organize your UI components and create a seamless user experience.",
                   style: TextStyle(fontSize: 18),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 15,
               ),
               const Row(
@@ -66,18 +66,18 @@ class HomePage extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 15,
               ),
-              BigConatiner(
+              const BigConatiner(
                 title: "open-source",
                 description:
                     "Flutter is an open-source UI (User Interface) software development kit created by Google.Flutter is an open-source UI (User Interface) software development kit created by Google.",
               ),
-              SizedBox(
+              const SizedBox(
                 height: 15,
               ),
-              BigConatiner(
+              const BigConatiner(
                 title: "Widget Tree",
                 description:
                     "In Flutter, the user interface is represented as a tree of widgets, commonly known as the widget treeIn Flutter, the user interface is represented as a tree of widgets, commonly known as the widget tree",

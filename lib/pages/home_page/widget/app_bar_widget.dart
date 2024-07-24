@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-Widget appBarLeading = Icon(
+Widget appBarLeading = const Icon(
   Icons.menu,
   color: Colors.white,
   size: 30,
 );
 
-Widget appBarTitle = Text(
+Widget appBarTitle = const Text(
   "Flutter Blocks App",
   style: TextStyle(
     color: Colors.white,
