@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_block_app/pages/home_page/home_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -12,23 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "flutte block app",
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Color(0xff9E00FF),
-          leading: Icon(
-            Icons.menu,
-            color: Colors.white,
-            size: 30,
-          ),
-          title: Text(
-            "Flutter Blocks App",
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
