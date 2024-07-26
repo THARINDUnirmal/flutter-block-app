@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_block_app/pages/home_page/reuse_widget/big_container.dart';
+import 'package:flutter_block_app/pages/home_page/reuse_widget/icon_card.dart';
+import 'package:flutter_block_app/pages/home_page/reuse_widget/roun_icon_card.dart';
 import 'package:flutter_block_app/pages/home_page/reuse_widget/small_card.dart';
 import 'package:flutter_block_app/pages/home_page/widget/app_bar_widget.dart';
 
@@ -82,6 +84,66 @@ class HomePage extends StatelessWidget {
                 description:
                     "In Flutter, the user interface is represented as a tree of widgets, commonly known as the widget treeIn Flutter, the user interface is represented as a tree of widgets, commonly known as the widget tree",
               ),
+              const SizedBox(
+                height: 15,
+              ),
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  IconCard(
+                    cardColor: Color(0xff06FFA5),
+                    cardIcon: Icons.abc,
+                    iconColor: Color(0xff333333),
+                  ),
+                  IconCard(
+                    cardColor: Color(0xff06FFA5),
+                    cardIcon: Icons.access_alarm_outlined,
+                    iconColor: Colors.white,
+                  ),
+                ],
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              const Text(
+                "Flutter Blocks App",
+                style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.white),
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+              Text(
+                "Flutter is an open-source UI (User Interface) software development kit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter was first introduced in 2015 and has gained significant popularity among developers due to its fast development cycle, expressive and flexible UI components, and excellent performance.",
+                style: TextStyle(
+                  color: const Color(0xffffffff).withOpacity(0.7),
+                ),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  RoundIconCard(
+                    selectIcon: Icons.facebook,
+                  ),
+                  RoundIconCard(
+                    selectIcon: Icons.facebook,
+                  ),
+                  RoundIconCard(
+                    selectIcon: Icons.facebook,
+                  ),
+                  RoundIconCard(
+                    selectIcon: Icons.facebook,
+                  ),
+                  RoundIconCard(
+                    selectIcon: Icons.facebook,
+                  ),
+                ],
+              )
             ],
           ),
         ),
