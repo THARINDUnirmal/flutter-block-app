@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_block_app/pages/home_page/reuse_widget/big_container.dart';
 import 'package:flutter_block_app/pages/home_page/reuse_widget/icon_card.dart';
-import 'package:flutter_block_app/pages/home_page/reuse_widget/roun_icon_card.dart';
+import 'package:flutter_block_app/pages/home_page/reuse_widget/round_icon_card.dart';
 import 'package:flutter_block_app/pages/home_page/reuse_widget/small_card.dart';
 import 'package:flutter_block_app/pages/home_page/widget/app_bar_widget.dart';
 
